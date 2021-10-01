@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 15;
+}
+
+body{
+    height: 100vh;
+    width: 100wv;
+    background-image: linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.5)), url("assent/backgraound.png"); 
+}
+.main-container{
+    height: 100%;
+    width: 100%;
+    
+}
+.title-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.assent-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.arrow-container{
+    display: flex;
+    height: 100px;
+    width: 100px;
+    background-color: gray;
+    border-radius: 100px;
+    align-items: center;
+    justify-content: center;
+    
+
+
+}
+.arrow-container > img{
+    height: 80px;
+    width: 80px;
+}
+.arrow-container:active{
+    background-color: rgb(2, 123, 150);
+}
+th{
+text-align: center;
+border: 1px solid black;
+padding: 10px 20px;
+width: 100px;
+color: white;
+}
+td{
+text-align: center;
+border: 1px solid black;
+padding: 10px 20px;
+width: 100px;
+}
+.table-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-collapse: collapse;
+    margin-top: 50px;
+}
+td:hover{
+    background-color: gray;
+}
+table{
+    border-collapse: collapse;
+}
+td{
+    background-color: rgb(209, 209, 209);
+}
+.hoy-container{
+    background-color:rgb(2, 123, 150); ;
+}
+.monday-container{
+    background-color: rgb(216, 37, 69)
+}
+.tuesday-container{
+    background-color: rgb(194, 75, 154);
+}
+.wednesday-container{
+    background-color: rgb(126, 123, 150);
+}
+.jhursday-container{
+    background-color: rgb(52, 89, 146);
+}
+.friday-container{
+    background-color: rgb(62, 153, 158);
+}
+.saturday-container{
+    background-color: rgb(75, 144, 86);
+}
+.sunday-container{
+    background-color: rgb(192, 132, 42);
+}
